@@ -1,0 +1,81 @@
+$date
+	Sat Jul  1 13:41:35 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 107f14ccfce55129 $end
+
+
+$scope module ClockMultiplier_tb $end
+$var reg 1 ! clk_in $end
+$var wire 1 " clk_out $end
+
+$scope module dut $end
+$var wire 1 ! clk_in $end
+$var wire 1 " clk_out $end
+$var reg 3 # count [2:0] $end
+$var reg 1 " clk_out_reg $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+b000 #
+$end
+#15
+1!
+b001 #
+#20
+0!
+#25
+1!
+b010 #
+#30
+0!
+#35
+1!
+b011 #
+#40
+0!
+#45
+1!
+b000 #
+1"
+#50
+0!
+#55
+1!
+b001 #
+#60
+0!
+#65
+1!
+b010 #
+#70
+0!
+#75
+1!
+b011 #
+#80
+0!
+#85
+1!
+b000 #
+0"
+#90
+0!
+#95
+1!
+b001 #
